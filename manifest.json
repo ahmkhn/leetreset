@@ -14,12 +14,18 @@
     "permissions": [
       "storage",
       "https://leetcode.com/*"
-  ],
-  "host_permissions":[
-    "https://leetcode.com/*"
-  ],
-    "background": {
-      "service_worker": "background.js"
-    }
+    ],
+    "host_permissions":[
+      "https://leetcode.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://leetcode.com/problems/*"],
+        "js": ["content.js"]
+      }
+    ],
+      "background": {
+        "service_worker": "background.js"
+      }
   }
   
