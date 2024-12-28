@@ -13,14 +13,14 @@
     },
     "permissions": [
       "storage",
-      "https://leetcode.com/*"
+      "https://leetcode.com/"
     ],
     "host_permissions":[
-      "https://leetcode.com/*"
+      "https://leetcode.com/"
     ],
     "content_scripts": [
       {
-        "matches": ["https://leetcode.com/problems/*"],
+        "matches": ["https://leetcode.com/"],
         "js": ["content.js"]
       }
     ],
