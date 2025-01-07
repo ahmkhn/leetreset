@@ -1,4 +1,9 @@
-# leetreset
+# LeetReset
+
+
+
+https://github.com/user-attachments/assets/68575a22-e344-4a18-8d24-fb5091cb2783
+
 
 An extension that deletes all solutions to solved problems on LeetCode.
 
